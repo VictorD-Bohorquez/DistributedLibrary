@@ -12,7 +12,7 @@ def UTC():
 	return hora
 
 def conexion():
-	conexion=mysql.connector.connect(host="localhost", user="root", passwd="blackmaria", database="horas")
+	conexion=mysql.connector.connect(host="localhost", user="root", passwd="psw", database="horas")
 	return conexion
 
 def registar(ipa, hip, hserver):

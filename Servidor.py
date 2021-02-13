@@ -10,7 +10,7 @@ from datetime import datetime
 import mysql.connector
 
 def conexion():
-	conexion=mysql.connector.connect(host="localhost", user="root", passwd="blackmaria", database="libros")
+	conexion=mysql.connector.connect(host="localhost", user="root", passwd="psw", database="libros")
 	return conexion
 
 def obtenerlibros():
